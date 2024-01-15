@@ -1,5 +1,5 @@
 let nickname = "Junior "
-let xp = 1000
+let xp = 15000
 let nivel
 
 switch(true){
@@ -9,22 +9,22 @@ switch(true){
     case xp >= 1001 && xp <=2000:
         nivel = " Bronze";
         break;
-    case xp >= 2001 && xp <= 3000:
+    case xp >= 2001 && xp <= 5000:
         nivel = " Prata";
         break;
-    case xp >= 3001 && xp <= 4000:
+    case xp >= 5001 && xp <= 7000:
         nivel = " Ouro";
         break;
-    case xp >= 4001 && xp <= 5000:
+    case xp >= 7001 && xp <= 8000:
         nivel = "Platina"
         break;
-    case xp >= 5001 && xp <= 6000:
+    case xp >= 8001 && xp <= 9000:
         nivel = " Ascendente";
         break;
-    case xp >= 6001 && xp <= 7000:
+    case xp >= 9001 && xp <= 10000:
         nivel = " Imortal";
         break;
-    case xp >= 7001 && xp <= 8000:
+    case xp >= 10001:
         nivel = " Radiante";
         break;
 
